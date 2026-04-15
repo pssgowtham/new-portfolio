@@ -1,0 +1,77 @@
+import { SkillCategory } from "@/types";
+
+export const skillCategories: SkillCategory[] = [
+  {
+    name: "Core",
+    skills: [
+      { name: "JavaScript" },
+      { name: "TypeScript" },
+      { name: "Python" },
+      { name: "Java" },
+      { name: "React.js" },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "Next.js" },
+      { name: "Spring Boot" },
+      { name: "Angular" },
+      { name: "FastAPI" },
+    ],
+  },
+  {
+    name: "Data & AI",
+    skills: [
+      { name: "PostgreSQL" },
+      { name: "MongoDB" },
+      { name: "DynamoDB" },
+      { name: "Redis" },
+      { name: "LangChain" },
+      { name: "LangGraph" },
+      { name: "PGVector" },
+      { name: "Pinecone" },
+      { name: "LangSmith" },
+    ],
+  },
+  {
+    name: "Cloud & DevOps",
+    skills: [
+      { name: "AWS Lambda" },
+      { name: "AWS S3" },
+      { name: "AWS EC2" },
+      { name: "CloudFront" },
+      { name: "SQS/SNS" },
+      { name: "Docker" },
+      { name: "Kubernetes" },
+      { name: "Jenkins" },
+      { name: "GitHub Actions" },
+    ],
+  },
+  {
+    name: "Monitoring & Testing",
+    skills: [
+      { name: "Grafana" },
+      { name: "Prometheus" },
+      { name: "Datadog" },
+      { name: "ELK Stack" },
+      { name: "k6" },
+      { name: "Selenium" },
+      { name: "JUnit" },
+      { name: "Postman" },
+    ],
+  },
+  {
+    name: "Also Familiar",
+    skills: [
+      { name: "C/C++" },
+      { name: "C#" },
+      { name: "Go" },
+      { name: "Vue.js" },
+      { name: "Django" },
+      { name: "GraphQL" },
+      { name: "Kafka" },
+      { name: "Cassandra" },
+      { name: "Snowflake" },
+      { name: "GCP" },
+      { name: "Azure" },
+    ],
+  },
+];
