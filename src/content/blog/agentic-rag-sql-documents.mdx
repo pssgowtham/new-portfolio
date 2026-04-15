@@ -1,0 +1,112 @@
+---
+title: "Building an Agentic RAG System: Connecting SQL and Documents with LlamaIndex and Gemini"
+description: Bridging the gap between your sales dashboard and product manuals using Generative AI — combining retrieval-augmented generation with SQL querying through an agentic system.
+date: 2026-01-26
+tags: ['AI', 'RAG', 'LlamaIndex', 'Python', 'SQL']
+category: AI Engineering
+published: true
+---
+
+Imagine this: an analyst gets two requests in one morning — "What were our total sales in Q3?" and "What does the warranty cover for our X-2000 model?" The first lives in a database. The second is buried in a product manual PDF. Traditional approaches force switching between tools. What if one system could handle both?
+
+That's exactly what an **Agentic RAG** system does — combining retrieval-augmented generation (RAG) with SQL querying through an intelligent agent that routes queries automatically.
+
+## What the System Must Do
+
+1. **Understand query intent** — Is the user asking about structured data or documents?
+2. **Automatically choose** between database and document retrieval
+3. **Generate accurate SQL** for relational databases
+4. **Perform semantic vector searches** across documents
+5. **Synthesize unified answers** from both sources
+
+## The Architecture: A "Reasoning" Router
+
+The solution uses three core components:
+
+- **The Brain:** Google Gemini Pro (LLM)
+- **Tool A — The Analyst:** SQL schema understanding and PostgreSQL/MySQL querying
+- **Tool B — The Librarian:** Vector store retrieval for semantic document search
+- **The Router:** LlamaIndex's `SQLAutoVectorQueryEngine`
+
+## The Stack
+
+- Python 3.9+
+- LlamaIndex (orchestration framework)
+- PostgreSQL/MySQL (local databases simulating enterprise data)
+- Google Gemini (reasoning and embeddings)
+- Streamlit (interactive UI)
+
+## Defining the Tools
+
+### The SQL Tool
+
+We wrap database connections with `NLSQLTableQueryEngine`, providing descriptions so the LLM knows when to invoke it:
+
+```python
+def get_sql_tool(sql_database):
+    return QueryEngineTool.from_defaults(
+        query_engine=sql_query_engine,
+        name="sql_tool",
+        description=(
+            "Useful for translating a natural language query into a SQL query "
+            "over a database containing: sales (amount, date, region) and "
+            "inventory (stock_level). Use this for structured data questions "
+            "requiring math or aggregation."
+        )
+    )
+```
+
+### The Vector Tool
+
+For documents, we use `VectorIndexAutoRetriever` to match concepts semantically:
+
+```python
+def get_vector_tool(vector_index):
+    return QueryEngineTool.from_defaults(
+        query_engine=vector_query_engine,
+        name="vector_tool",
+        description=(
+            "Useful for answering questions about product manuals, features, "
+            "usage instructions, and warranty. Use this for unstructured "
+            "text queries."
+        )
+    )
+```
+
+## The Agent Logic
+
+Initialization is straightforward using `SQLAutoVectorQueryEngine`:
+
+```python
+query_engine = SQLAutoVectorQueryEngine(
+    sql_query_tool=sql_tool,
+    vector_query_tool=vector_tool,
+    llm=Settings.llm
+)
+```
+
+The engine intelligently routes queries based on intent:
+
+- **"Total revenue in Q3?"** → Matches "sales" and "math" → Calls SQL Tool
+- **"Warranty for X-2000?"** → Matches "manuals" and "warranty" → Calls Vector Tool
+
+## The Interface
+
+A Streamlit frontend enables natural conversational interaction. The system maintains transparency by displaying generated SQL queries and retrieved text chunks, building user confidence in the results.
+
+## Challenges & Learnings
+
+### Schema Ambiguity
+Database column naming is crucial. If asking "How many widgets?" the LLM must map "widgets" to the actual `product_name` column. Clear, descriptive schema design makes or breaks the system.
+
+### Latency
+Agent reasoning requires planning, code generation, execution, and synthesis — slower than keyword search but significantly more intelligent.
+
+### Imports
+Python import management proved tricky when combining script and app execution. Absolute imports resolved the issue.
+
+## Conclusion
+
+Business intelligence's future is not static dashboards — it's interactive agents that merge database precision with semantic search flexibility. Previously siloed information becomes accessible through a single conversational interface.
+
+The project is open source and available on [GitHub](https://github.com/pssgowtham/Agentic-SQL-RAG-for-Business-Data).
