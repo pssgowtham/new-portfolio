@@ -9,69 +9,69 @@ published: true
 
 Video anomaly detection (VAD) is a critical component of intelligent surveillance systems, focusing on identifying abnormal objects or unusual human behaviors in video sequences. From cyclists on pedestrian walkways to unexpected explosions in public spaces, anomalies are rare, diverse, and hard to detect reliably.
 
-In this survey, we compare four leading VAD models — **DMAD**, **FASTANO**, **ASTNET**, and **AI-VAD** — each employing unique methodologies to address the challenges inherent in anomaly detection.
+In this survey, we compare four leading VAD models — DMAD, FASTANO, ASTNET, and AI-VAD — each employing unique methodologies to address the challenges inherent in anomaly detection.
 
 ## The Four Models
 
 ### DMAD (Diversity-Measurable Anomaly Detection)
 
-DMAD uses an **Information Compression Module** (ICM) and a **Pyramid Deformation Module** (PDM). The ICM compresses information and creates prototypical embeddings of normal patterns, while the PDM models diverse normal patterns and measures anomaly severity by analyzing multi-scale deformation fields. This framework enhances reconstruction diversity to improve detection performance while avoiding undesired generalization on anomalies.
+DMAD uses an Information Compression Module (ICM) and a Pyramid Deformation Module (PDM). The ICM compresses information and creates prototypical embeddings of normal patterns, while the PDM models diverse normal patterns and measures anomaly severity by analyzing multi-scale deformation fields. This framework enhances reconstruction diversity to improve detection performance while avoiding undesired generalization on anomalies.
 
 ### AI-VAD (Attribute-based Interpretable VAD)
 
-AI-VAD combines explicit attribute-based representations with implicit deep representations. The methodology involves three stages: **pre-processing**, **feature extraction**, and **density estimation**. Optical flow maps and bounding boxes are extracted to represent objects and motions, then velocity, pose, and deep features create object-level feature descriptors. Density estimation scores samples as normal or anomalous, with low estimated density indicating anomalies. The model's interpretability — making decisions based on semantic attributes — makes it applicable in critical environments.
+AI-VAD combines explicit attribute-based representations with implicit deep representations. The methodology involves three stages: pre-processing, feature extraction, and density estimation. Optical flow maps and bounding boxes are extracted to represent objects and motions, then velocity, pose, and deep features create object-level feature descriptors. Density estimation scores samples as normal or anomalous, with low estimated density indicating anomalies. The model's interpretability — making decisions based on semantic attributes — makes it applicable in critical environments.
 
 ### FASTANO (Fast Anomaly Detection via Spatio-temporal Patch Transformation)
 
-FASTANO introduces a fast anomaly detection method using **spatial rotation transformation** (SRT) and **temporal mixing transformation** (TMT). SRT rotates patch cuboids to capture foregrounds and encourage the model to focus on moving objects, while TMT shuffles patch sequences in the temporal axis to generate abnormal movement. This approach does not rely on pre-trained networks, is computationally efficient, and achieves high detection speed suitable for real-time applications.
+FASTANO introduces a fast anomaly detection method using spatial rotation transformation (SRT) and temporal mixing transformation (TMT). SRT rotates patch cuboids to capture foregrounds and encourage the model to focus on moving objects, while TMT shuffles patch sequences in the temporal axis to generate abnormal movement. This approach does not rely on pre-trained networks, is computationally efficient, and achieves high detection speed suitable for real-time applications.
 
 ### ASTNET (Attention-based Residual Autoencoder)
 
-ASTNET utilizes a residual autoencoder with a deep convolutional neural network-based encoder and a multi-stage channel attention-based decoder. The architecture features a **WiderResnet** encoder that extracts high-level features channeled into temporal and spatial branches. The temporal branch employs a novel shifting technique, while the spatial branch aggregates features using a 1x1 convolution and integrates channel attention. During training, the network learns to predict future frames, computing an anomaly score derived from PSNR comparison.
+ASTNET utilizes a residual autoencoder with a deep convolutional neural network-based encoder and a multi-stage channel attention-based decoder. The architecture features a WiderResnet encoder that extracts high-level features channeled into temporal and spatial branches. The temporal branch employs a novel shifting technique, while the spatial branch aggregates features using a 1x1 convolution and integrates channel attention. During training, the network learns to predict future frames, computing an anomaly score derived from PSNR comparison.
 
 ## Methodology
 
 We conducted a comparative analysis across multiple dimensions:
 
-- **Frame sizes**: 128x128 and 256x256
-- **Dataset sizes**: 100%, 50%, 25%, and 12% of training data
-- **Datasets**: Ped2, Avenue, and ShanghaiTech
+- Frame sizes: 128x128 and 256x256
+- Dataset sizes: 100%, 50%, 25%, and 12% of training data
+- Datasets: Ped2, Avenue, and ShanghaiTech
 
 ### Evaluation Metrics
 
-- **AUC (Area Under the Curve)**: Measures the model's ability to distinguish between normal and anomalous frames
-- **PSNR (Peak Signal-to-Noise Ratio)**: Quantifies the quality of reconstructed images compared to originals
-- **CPU Time**: Measures training and inference time for computational efficiency assessment
+- AUC (Area Under the Curve): Measures the model's ability to distinguish between normal and anomalous frames
+- PSNR (Peak Signal-to-Noise Ratio): Quantifies the quality of reconstructed images compared to originals
+- CPU Time: Measures training and inference time for computational efficiency assessment
 
 ## Key Results
 
 ### AUC Performance
 
-At full dataset capacity, **AI-VAD consistently outperformed** other models across complex datasets. In the Avenue dataset, AI-VAD achieved AUC scores of 93.32 at 256x256, maintaining a substantial lead. In the Shanghai dataset, AI-VAD again performed best across both frame sizes.
+At full dataset capacity, AI-VAD consistently outperformed other models across complex datasets. In the Avenue dataset, AI-VAD achieved AUC scores of 93.32 at 256x256, maintaining a substantial lead. In the Shanghai dataset, AI-VAD again performed best across both frame sizes.
 
-**DMAD** excelled in simpler scenarios like Ped2 (AUC of 99.14) but showed sensitivity to reduced data volumes in more complex datasets. **ASTNET** consistently had the lowest AUC scores across all conditions.
+DMAD excelled in simpler scenarios like Ped2 (AUC of 99.14) but showed sensitivity to reduced data volumes in more complex datasets. ASTNET consistently had the lowest AUC scores across all conditions.
 
 Even with data reduced to just 12%, AI-VAD's resilience shone through with an AUC of 89.12 at 256x256 in the Avenue and Shanghai datasets, still leading by a significant margin.
 
 ### PSNR (Image Quality)
 
-**DMAD** consistently achieved the highest PSNR values across all datasets (up to 51.54 at 256x256 in Ped2), demonstrating superior image reconstruction quality even at reduced dataset sizes. FASTANO showed competitive PSNR values, while ASTNET recorded the lowest.
+DMAD consistently achieved the highest PSNR values across all datasets (up to 51.54 at 256x256 in Ped2), demonstrating superior image reconstruction quality even at reduced dataset sizes. FASTANO showed competitive PSNR values, while ASTNET recorded the lowest.
 
 ### Training Time
 
-**FASTANO** demonstrated the shortest training times across all conditions, making it ideal for environments where quick model readiness is crucial. **AI-VAD** was also efficient at smaller frame sizes (0.15 hours at 128x128 in Ped2). **DMAD**, while capable in terms of performance, required considerably more time.
+FASTANO demonstrated the shortest training times across all conditions, making it ideal for environments where quick model readiness is crucial. AI-VAD was also efficient at smaller frame sizes (0.15 hours at 128x128 in Ped2). DMAD, while capable in terms of performance, required considerably more time.
 
 ### Inference Speed
 
-**FASTANO** consistently demonstrated the lowest inference time across all datasets and frame sizes, processing videos in roughly 2-5 seconds. **DMAD** generally had the highest inference time (up to 17 seconds), which could be a significant drawback in time-sensitive scenarios.
+FASTANO consistently demonstrated the lowest inference time across all datasets and frame sizes, processing videos in roughly 2-5 seconds. DMAD generally had the highest inference time (up to 17 seconds), which could be a significant drawback in time-sensitive scenarios.
 
 ## Takeaways
 
 | Model | Best At | Weakness |
 |-------|---------|----------|
-| **AI-VAD** | Highest AUC, robust with limited data | No PSNR (doesn't generate frames) |
-| **DMAD** | Best image reconstruction (PSNR) | Slow training and inference, struggles with complex datasets at low data |
-| **FASTANO** | Fastest training and inference | Slightly lower accuracy than AI-VAD |
-| **ASTNET** | Moderate across metrics | Lowest AUC and PSNR consistently |
+| AI-VAD | Highest AUC, robust with limited data | No PSNR (doesn't generate frames) |
+| DMAD | Best image reconstruction (PSNR) | Slow training and inference, struggles with complex datasets at low data |
+| FASTANO | Fastest training and inference | Slightly lower accuracy than AI-VAD |
+| ASTNET | Moderate across metrics | Lowest AUC and PSNR consistently |
 
-The selection of anomaly detection models should balance performance metrics with practical considerations like training time and computational resources. For accuracy-critical deployments, **AI-VAD** is the clear winner. For real-time applications where speed matters most, **FASTANO** is the best choice. For high-fidelity image reconstruction, **DMAD** leads the pack.
+The selection of anomaly detection models should balance performance metrics with practical considerations like training time and computational resources. For accuracy-critical deployments, AI-VAD is the clear winner. For real-time applications where speed matters most, FASTANO is the best choice. For high-fidelity image reconstruction, DMAD leads the pack.

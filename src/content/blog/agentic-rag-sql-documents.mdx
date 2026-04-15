@@ -9,24 +9,24 @@ published: true
 
 Imagine this: an analyst gets two requests in one morning — "What were our total sales in Q3?" and "What does the warranty cover for our X-2000 model?" The first lives in a database. The second is buried in a product manual PDF. Traditional approaches force switching between tools. What if one system could handle both?
 
-That's exactly what an **Agentic RAG** system does — combining retrieval-augmented generation (RAG) with SQL querying through an intelligent agent that routes queries automatically.
+That's exactly what an Agentic RAG system does — combining retrieval-augmented generation (RAG) with SQL querying through an intelligent agent that routes queries automatically.
 
 ## What the System Must Do
 
-1. **Understand query intent** — Is the user asking about structured data or documents?
-2. **Automatically choose** between database and document retrieval
-3. **Generate accurate SQL** for relational databases
-4. **Perform semantic vector searches** across documents
-5. **Synthesize unified answers** from both sources
+1. Understand query intent — Is the user asking about structured data or documents?
+2. Automatically choose between database and document retrieval
+3. Generate accurate SQL for relational databases
+4. Perform semantic vector searches across documents
+5. Synthesize unified answers from both sources
 
 ## The Architecture: A "Reasoning" Router
 
 The solution uses three core components:
 
-- **The Brain:** Google Gemini Pro (LLM)
-- **Tool A — The Analyst:** SQL schema understanding and PostgreSQL/MySQL querying
-- **Tool B — The Librarian:** Vector store retrieval for semantic document search
-- **The Router:** LlamaIndex's `SQLAutoVectorQueryEngine`
+- The Brain: Google Gemini Pro (LLM)
+- Tool A — The Analyst: SQL schema understanding and PostgreSQL/MySQL querying
+- Tool B — The Librarian: Vector store retrieval for semantic document search
+- The Router: LlamaIndex's `SQLAutoVectorQueryEngine`
 
 ## The Stack
 
@@ -87,8 +87,8 @@ query_engine = SQLAutoVectorQueryEngine(
 
 The engine intelligently routes queries based on intent:
 
-- **"Total revenue in Q3?"** → Matches "sales" and "math" → Calls SQL Tool
-- **"Warranty for X-2000?"** → Matches "manuals" and "warranty" → Calls Vector Tool
+- "Total revenue in Q3?" → Matches "sales" and "math" → Calls SQL Tool
+- "Warranty for X-2000?" → Matches "manuals" and "warranty" → Calls Vector Tool
 
 ## The Interface
 

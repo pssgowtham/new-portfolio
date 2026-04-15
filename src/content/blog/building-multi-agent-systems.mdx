@@ -15,12 +15,12 @@ Traditional single-agent architectures hit their limits when tasks require diver
 
 ## Architecture Overview
 
-The key insight is treating agent orchestration as a **state machine**. LangGraph provides exactly this abstraction:
+The key insight is treating agent orchestration as a state machine. LangGraph provides exactly this abstraction:
 
-- **Nodes** represent individual agent operations
-- **Edges** define transitions between agents
-- **Conditional edges** enable dynamic routing based on intermediate results
-- **State** flows through the graph, accumulating results
+- Nodes represent individual agent operations
+- Edges define transitions between agents
+- Conditional edges enable dynamic routing based on intermediate results
+- State flows through the graph, accumulating results
 
 ## State Management
 
@@ -39,10 +39,10 @@ In production, you need visibility into every agent decision. LangSmith provides
 
 After building several multi-agent systems in production:
 
-- **Start simple**: Begin with 2-3 agents and add complexity incrementally
-- **Define clear contracts**: Each agent should have well-defined inputs and outputs
-- **Implement guardrails**: Use safety layers like LlamaGuard for prompt injection detection
-- **Monitor everything**: Track success rates, latency, and quality scores per agent
-- **Cache aggressively**: Semantic caching with vector stores prevents redundant work
+- Start simple: Begin with 2-3 agents and add complexity incrementally
+- Define clear contracts: Each agent should have well-defined inputs and outputs
+- Implement guardrails: Use safety layers like LlamaGuard for prompt injection detection
+- Monitor everything: Track success rates, latency, and quality scores per agent
+- Cache aggressively: Semantic caching with vector stores prevents redundant work
 
 Multi-agent systems are not a silver bullet, but for complex, multi-step tasks, they consistently outperform single-agent approaches in both quality and reliability.
