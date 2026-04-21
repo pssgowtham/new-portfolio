@@ -2,6 +2,28 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    id: "codereviewerai",
+    title: "CodeReviewer AI",
+    subtitle: "Autonomous LLM-Powered Pull Request Review Agent",
+    description:
+      "Built an autonomous code review agent using Claude and GPT-4o with tool-calling and MCP server integration, analyzing 500+ pull requests monthly with context-aware feedback on security flaws, performance regressions, and maintainability issues.",
+    caseStudy:
+      "CodeReviewer AI addresses the bottleneck of manual pull request reviews in fast-moving engineering teams. The system hooks into GitHub webhooks and triggers on every PR open/update event via serverless AWS Lambda functions. It uses Tree-sitter based AST parsing to understand code structure across Python, JavaScript, Go, and Java — going beyond line-level diffs to reason about control flow, variable scope, and API surface changes. A RAG pipeline over project history via Pinecone grounds suggestions in repo-specific conventions, so feedback reflects how the team actually writes code rather than generic best practices. Claude and GPT-4o are used together: Claude for reasoning-heavy security and architecture analysis, GPT-4o for high-throughput maintainability feedback. Review state is persisted in DynamoDB, enabling multi-round dialogue where engineers can ask follow-up questions on specific suggestions. LangSmith evals run nightly against a curated benchmark of 200+ labeled issues, with the system achieving 88% precision. End result: 60% reduction in review turnaround time.",
+    technologies: [
+      "Claude API",
+      "GPT-4o",
+      "LangSmith",
+      "Pinecone",
+      "Tree-sitter",
+      "AWS Lambda",
+      "DynamoDB",
+      "GitHub Webhooks",
+      "Python",
+    ],
+    categories: ["AI", "Backend", "Cloud"],
+    githubUrl: "https://github.com/pssgowtham/CodeReviewerAI",
+  },
+  {
     id: "multi-agent-research",
     title: "Multi-Agent Research System",
     subtitle: "AI-Powered Deep Research Platform",
