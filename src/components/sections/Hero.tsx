@@ -85,6 +85,18 @@ export default function Hero() {
               Hi, my name is
             </motion.p>
 
+            <motion.h1
+              variants={fadeInUp}
+              className="text-4xl sm:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-heading)] mb-4 leading-tight"
+              style={{ color: "var(--text-primary)" }}
+            >
+              {personalInfo.name.split(" ").slice(0, -1).join(" ")}
+              <br />
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                {personalInfo.name.split(" ").slice(-1)}
+              </span>
+            </motion.h1>
+
             <motion.div variants={fadeInUp} className="mb-4">
               <a
                 href="#contact"
@@ -109,18 +121,6 @@ export default function Hero() {
                 Open to Work
               </a>
             </motion.div>
-
-            <motion.h1
-              variants={fadeInUp}
-              className="text-4xl sm:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-heading)] mb-4 leading-tight"
-              style={{ color: "var(--text-primary)" }}
-            >
-              {personalInfo.name.split(" ").slice(0, -1).join(" ")}
-              <br />
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                {personalInfo.name.split(" ").slice(-1)}
-              </span>
-            </motion.h1>
 
             <motion.div
               variants={fadeInUp}
