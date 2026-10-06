@@ -28,7 +28,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Santosh Sai Gowtham Pasala | AI Software Engineer",
   description:
-    "AI Software Engineer with 4+ years of experience building scalable web applications and AI-powered systems. Specializing in Python, Node.js, React.js, and AWS with hands-on expertise in LLM integration, RAG pipelines, and production-grade monitoring.",
+    "Software Engineer with 4+ years building production systems end to end. Backends in Python, FastAPI, and Node.js. Frontends in React and Next.js. AI systems with LangGraph multi-agent orchestration, RAG pipelines, and MCP servers.",
   keywords: [
     "AI Software Engineer",
     "Full Stack Developer",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     title: "Santosh Sai Gowtham Pasala | AI Software Engineer",
     description:
-      "AI Software Engineer with 4+ years of experience building scalable web applications and AI-powered systems.",
+      "Software Engineer with 4+ years building production systems end to end. Backends in Python, FastAPI, and Node.js. Frontends in React and Next.js. AI systems with LangGraph multi-agent orchestration, RAG pipelines, and MCP servers.",
     siteName: "Santosh Pasala Portfolio",
     images: [
       {
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Santosh Sai Gowtham Pasala | AI Software Engineer",
     description:
-      "AI Software Engineer with 4+ years of experience building scalable web applications and AI-powered systems.",
+      "Software Engineer with 4+ years building production systems end to end. Backends in Python, FastAPI, and Node.js. Frontends in React and Next.js. AI systems with LangGraph multi-agent orchestration, RAG pipelines, and MCP servers.",
   },
   robots: {
     index: true,
@@ -89,10 +89,29 @@ export default function RootLayout({
               "@type": "Person",
               name: "Santosh Sai Gowtham Pasala",
               jobTitle: "AI Software Engineer",
-              url: "https://santoshpasala.dev",
+              url: "https://pssgowthamportfolio.vercel.app/",
+              email: "mailto:santoshp12122@gmail.com",
               sameAs: [
                 "https://www.linkedin.com/in/santoshsaigowtham/",
                 "https://github.com/pssgowtham",
+              ],
+              knowsAbout: [
+                "Python",
+                "FastAPI",
+                "React",
+                "TypeScript",
+                "LangGraph",
+                "LangChain",
+                "RAG",
+                "MCP",
+                "Pinecone",
+                "LLM Evaluation",
+                "Microservices",
+                "PostgreSQL",
+                "AWS",
+                "Azure",
+                "Docker",
+                "Kubernetes",
               ],
               address: {
                 "@type": "PostalAddress",
