@@ -85,6 +85,31 @@ export default function Hero() {
               Hi, my name is
             </motion.p>
 
+            <motion.div variants={fadeInUp} className="mb-4">
+              <a
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .querySelector("#contact")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold transition-transform hover:scale-105"
+                style={{
+                  backgroundColor: "rgba(34,197,94,0.12)",
+                  color: "#22c55e",
+                  border: "1px solid rgba(34,197,94,0.4)",
+                }}
+                aria-label="Open to work - get in touch"
+              >
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                </span>
+                Open to Work
+              </a>
+            </motion.div>
+
             <motion.h1
               variants={fadeInUp}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-heading)] mb-4 leading-tight"
