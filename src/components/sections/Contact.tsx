@@ -61,33 +61,20 @@ export default function Contact() {
     email: "",
     message: "",
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState("");
 
-  const handleSubmit = async (e: FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-
-    try {
-      const res = await fetch("https://formspree.io/f/placeholder", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (res.ok) {
-        setToastMessage("Message sent successfully!");
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        setToastMessage("Failed to send. Please email directly.");
-      }
-    } catch {
-      setToastMessage("Failed to send. Please email directly.");
-    } finally {
-      setIsSubmitting(false);
-      setShowToast(true);
-    }
+    const subject = encodeURIComponent(
+      `Portfolio contact from ${formData.name}`
+    );
+    const body = encodeURIComponent(
+      `${formData.message}\n\n— ${formData.name} (${formData.email})`
+    );
+    window.location.href = `mailto:${personalInfo.email}?subject=${subject}&body=${body}`;
+    setToastMessage("Opening your email client to send the message...");
+    setShowToast(true);
   };
 
   return (
@@ -285,17 +272,10 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  disabled={isSubmitting}
-                  className="w-full py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-white font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-white font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-all"
                 >
-                  {isSubmitting ? (
-                    "Sending..."
-                  ) : (
-                    <>
-                      <FiSend className="w-4 h-4" />
-                      Send Message
-                    </>
-                  )}
+                  <FiSend className="w-4 h-4" />
+                  Send Message
                 </button>
               </div>
             </form>
