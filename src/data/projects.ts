@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "Python",
     ],
     categories: ["AI", "Backend", "Cloud"],
-    githubUrl: "https://github.com/pssgowtham/CodeReviewerAI",
+    githubUrl: "https://github.com/pssgowtham/codereviewer",
   },
   {
     id: "multi-agent-research",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "SSE",
     ],
     categories: ["AI", "Python", "Backend"],
-    githubUrl: "https://github.com/pssgowtham",
+    githubUrl: "https://github.com/pssgowtham/multi-agent-research",
   },
   {
     id: "omniquery",
