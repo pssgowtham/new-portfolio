@@ -15,6 +15,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Spring Boot" },
       { name: "Angular" },
       { name: "FastAPI" },
+      { name: "Pydantic" },
     ],
   },
   {
@@ -29,6 +30,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "PGVector" },
       { name: "Pinecone" },
       { name: "LangSmith" },
+      { name: "MCP" },
     ],
   },
   {
@@ -43,6 +45,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Kubernetes" },
       { name: "Jenkins" },
       { name: "GitHub Actions" },
+      { name: "CI/CD" },
     ],
   },
   {
