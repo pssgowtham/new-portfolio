@@ -6,14 +6,14 @@ export const personalInfo: PersonalInfo = {
   initials: "PSS",
   title: "AI Software Engineer",
   location: "San Jose, CA",
-  email: "gowtham23109@gmail.com",
+  email: "santoshp12122@gmail.com",
   phone: "+1 (669) 209-0322",
   linkedin: "https://www.linkedin.com/in/santoshsaigowtham/",
   github: "https://github.com/pssgowtham",
   summary:
-    "AI Software Engineer with 4+ years of experience building scalable web applications and AI-powered systems. Specializing in Python, Node.js, React.js, and AWS with hands-on expertise in LLM integration, RAG pipelines, and production-grade monitoring.",
+    "Software Engineer with 4+ years building production systems end to end. Backends in Python, FastAPI, and Node.js. Frontends in React and Next.js. AI systems with LangGraph multi-agent orchestration, RAG pipelines, and MCP servers.",
   about:
-    "I'm an AI Software Engineer based in San Jose, CA, passionate about building intelligent systems that solve real-world problems. With a Master's in Software Engineering from San Jose State University, I combine deep technical expertise with a product-focused mindset. I've architected multi-agent AI systems handling thousands of daily interactions, built production-grade RAG pipelines that dramatically reduce response times, and developed full-stack applications that scale under high concurrency. I thrive at the intersection of AI and software engineering — turning cutting-edge research into reliable, production-ready solutions.",
+    "I'm a Software Engineer based in San Jose, CA, with 4+ years building production systems end to end. On the backend I work with Python, FastAPI, and Node.js across microservices, REST APIs, and PostgreSQL. In AI I build multi-agent systems with LangGraph and LangChain, RAG pipelines on Pinecone, and MCP servers, backed by LLM evals and cost and latency telemetry. On the frontend I ship React and Next.js experiences including human-in-the-loop dashboards. At GEICO I own a production system processing 1K+ customer service emails daily at 92% accuracy. I work directly with stakeholders from problem definition through deployment on Azure and AWS.",
   roles: [
     "AI Software Engineer",
     "Full-Stack Developer",
