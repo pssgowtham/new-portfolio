@@ -26,12 +26,15 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Santosh Sai Gowtham Pasala | AI Software Engineer",
+  title: "Santosh Sai Gowtham Pasala | Software Engineer",
   description:
-    "Software Engineer with 4+ years building production systems end to end. Backends in Python, FastAPI, and Node.js. Frontends in React and Next.js. AI systems with LangGraph multi-agent orchestration, RAG pipelines, and MCP servers.",
+    "Software Engineer with 4+ years building production systems end to end. Backends in JavaScript and Node.js. Frontends in React and Next.js. AI backends in Python and FastAPI with LangGraph multi-agent orchestration, RAG pipelines, and MCP integrations.",
   keywords: [
-    "AI Software Engineer",
+    "Software Engineer",
+    "Backend Engineer",
     "Full Stack Developer",
+    "JavaScript",
+    "Node.js",
     "React",
     "Python",
     "Next.js",
@@ -44,24 +47,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Santosh Sai Gowtham Pasala | AI Software Engineer",
+    title: "Santosh Sai Gowtham Pasala | Software Engineer",
     description:
-      "Software Engineer with 4+ years building production systems end to end. Backends in Python, FastAPI, and Node.js. Frontends in React and Next.js. AI systems with LangGraph multi-agent orchestration, RAG pipelines, and MCP servers.",
+      "Software Engineer with 4+ years building production systems end to end. Backends in JavaScript and Node.js. Frontends in React and Next.js. AI backends in Python and FastAPI with LangGraph multi-agent orchestration, RAG pipelines, and MCP integrations.",
     siteName: "Santosh Pasala Portfolio",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Santosh Sai Gowtham Pasala - AI Software Engineer",
+        alt: "Santosh Sai Gowtham Pasala - Software Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Santosh Sai Gowtham Pasala | AI Software Engineer",
+    title: "Santosh Sai Gowtham Pasala | Software Engineer",
     description:
-      "Software Engineer with 4+ years building production systems end to end. Backends in Python, FastAPI, and Node.js. Frontends in React and Next.js. AI systems with LangGraph multi-agent orchestration, RAG pipelines, and MCP servers.",
+      "Software Engineer with 4+ years building production systems end to end. Backends in JavaScript and Node.js. Frontends in React and Next.js. AI backends in Python and FastAPI with LangGraph multi-agent orchestration, RAG pipelines, and MCP integrations.",
   },
   robots: {
     index: true,
@@ -88,7 +91,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Santosh Sai Gowtham Pasala",
-              jobTitle: "AI Software Engineer",
+              jobTitle: "Software Engineer",
               url: "https://pssgowthamportfolio.vercel.app/",
               email: "mailto:santoshp12122@gmail.com",
               sameAs: [
@@ -96,6 +99,8 @@ export default function RootLayout({
                 "https://github.com/pssgowtham",
               ],
               knowsAbout: [
+                "JavaScript",
+                "Node.js",
                 "Python",
                 "FastAPI",
                 "React",
