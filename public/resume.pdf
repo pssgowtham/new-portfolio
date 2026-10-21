@@ -1,5 +1,5 @@
 %PDF-1.3
-%abcd
+%aaaa
 1 0 obj
 <<
 /Count 2
@@ -19,6 +19,30 @@ endobj
 endobj
 3 0 obj
 <<
+/Annots [<</A <</S /URI /URI (mailto:santoshp12122@gmail.com)>>
+/Border [0 0 0]
+/F 4
+/Rect [240.53 722.27 352.21 735.31]
+/Subtype /Link
+/Type /Annot>>
+<</A <</S /URI /URI (https://www.linkedin.com/in/santoshsaigowtham)>>
+/Border [0 0 0]
+/F 4
+/Rect [116.09 709.23 257.64 722.27]
+/Subtype /Link
+/Type /Annot>>
+<</A <</S /URI /URI (https://github.com/pssgowtham)>>
+/Border [0 0 0]
+/F 4
+/Rect [264.98 709.23 362.02 722.27]
+/Subtype /Link
+/Type /Annot>>
+<</A <</S /URI /URI (https://pssgowthamportfolio.vercel.app/)>>
+/Border [0 0 0]
+/F 4
+/Rect [369.36 709.23 495.91 722.27]
+/Subtype /Link
+/Type /Annot>>]
 /Contents 4 0 R
 /Parent 1 0 R
 /Resources 9 0 R
@@ -27,7 +51,7 @@ endobj
 endobj
 4 0 obj
 <<
-/Length 8284
+/Length 10689
 >>
 stream
 2 J
@@ -41,68 +65,133 @@ BT /F1 11.00 Tf ET
 BT 42.52 691.76 Td (PROFESSIONAL SUMMARY) Tj ET
 0.2353 0.2353 0.2353 RG
 39.69 686.55 m 572.31 686.55 l S
-q BT 42.52 671.80 Td /F2 9.50 Tf 0.375 Tw (Software engineer with 4+ years building production systems end to end. On the backend I work with ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (FastAPI) Tj /F2 9.50 Tf (, and) Tj ET Q
-q BT 42.52 659.32 Td /F1 9.50 Tf 2.539 Tw (Node.js) Tj /F2 9.50 Tf ( across microservices, REST APIs, and ) Tj /F1 9.50 Tf (PostgreSQL) Tj /F2 9.50 Tf (. In AI I build multi-agent systems with ) Tj /F1 9.50 Tf (LangGraph) Tj /F2 9.50 Tf ( and) Tj ET Q
-q BT 42.52 646.85 Td /F1 9.50 Tf 0.823 Tw (LangChain) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (RAG) Tj /F2 9.50 Tf ( pipelines on ) Tj /F1 9.50 Tf (Pinecone) Tj /F2 9.50 Tf (, and ) Tj /F1 9.50 Tf (MCP) Tj /F2 9.50 Tf ( servers, backed by LLM evals and cost and latency telemetry. On the) Tj ET Q
-q BT 42.52 634.38 Td /F2 9.50 Tf 0.073 Tw (frontend I ship ) Tj /F1 9.50 Tf (React) Tj /F2 9.50 Tf ( and Next.js experiences including human-in-the-loop dashboards. I work directly with stakeholders from) Tj ET Q
-BT 42.52 621.91 Td /F2 9.50 Tf (problem definition through deployment on ) Tj /F1 9.50 Tf (Azure) Tj /F2 9.50 Tf ( and ) Tj /F1 9.50 Tf (AWS) Tj /F2 9.50 Tf (.) Tj ET
+q BT 42.52 671.80 Td /F2 9.50 Tf 2.524 Tw (Software engineer with 4+ years building production systems end to end. Backend focus on JavaScript and ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf () Tj ET Q
+q BT 42.52 659.32 Td /F2 9.50 Tf 0.284 Tw (microservices, ) Tj /F1 9.50 Tf (REST APIs) Tj /F2 9.50 Tf (, and ) Tj /F1 9.50 Tf (PostgreSQL) Tj /F2 9.50 Tf (, with full-stack delivery in ) Tj /F1 9.50 Tf (React) Tj /F2 9.50 Tf ( and Next.js. Build AI backends in ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf ( and) Tj ET Q
+q BT 42.52 646.85 Td /F1 9.50 Tf 0.916 Tw (FastAPI) Tj /F2 9.50 Tf ( on top of that foundation, including ) Tj /F1 9.50 Tf (LangGraph) Tj /F2 9.50 Tf ( multi-agent orchestration, ) Tj /F1 9.50 Tf (RAG) Tj /F2 9.50 Tf ( pipelines on ) Tj /F1 9.50 Tf (Pinecone) Tj /F2 9.50 Tf (, and ) Tj /F1 9.50 Tf (MCP) Tj /F2 9.50 Tf () Tj ET Q
+q BT 42.52 634.38 Td /F2 9.50 Tf 1.025 Tw (integrations, backed by LLM evals and cost and latency telemetry. Work directly with stakeholders from problem definition) Tj ET Q
+BT 42.52 621.91 Td /F2 9.50 Tf (through deployment on Azure and AWS.) Tj ET
 BT /F1 11.00 Tf ET
 BT 42.52 603.88 Td (TECHNICAL SKILLS) Tj ET
 39.69 598.68 m 572.31 598.68 l S
-BT 42.52 584.21 Td /F1 9.50 Tf (Programming Languages:) Tj /F2 9.50 Tf ( Python, JavaScript, TypeScript, Java, SQL, C++, HTML5, CSS3, Shell Script.) Tj ET
+BT 42.52 584.21 Td /F1 9.50 Tf (Programming Languages:) Tj /F2 9.50 Tf ( JavaScript, TypeScript, Python, Java, SQL, C++, HTML5, CSS3, Shell Script.) Tj ET
 q BT 42.52 572.30 Td /F1 9.50 Tf 2.604 Tw (Backend:) Tj /F2 9.50 Tf ( Node.js, Express.js, Flask, FastAPI, Pydantic, Spring Boot, Microservices, REST APIs, API Design, gRPC,) Tj ET Q
 BT 42.52 560.39 Td /F2 9.50 Tf (System Design, Event-Driven Architecture, OAuth2.0/JWT, Unit Testing \(PyTest, Jest\), Hibernate, JPA.) Tj ET
 BT 42.52 548.49 Td /F1 9.50 Tf (Frontend:) Tj /F2 9.50 Tf ( ReactJS, Vue.js, AngularJS, HTML5, CSS3, Bootstrap, Next.js.) Tj ET
-q BT 42.52 536.58 Td /F1 9.50 Tf 1.179 Tw (AI & LLM Systems:) Tj /F2 9.50 Tf ( LangGraph, LangChain, LangSmith, OpenAI, Claude API, RAG Pipelines, Multi-Agent Orchestration,) Tj ET Q
-q BT 42.52 524.68 Td /F2 9.50 Tf 1.323 Tw (MCP \(Model Context Protocol\), A2A, Prompt Engineering, Vector Databases \(Pinecone, PGVector, Weaviate\), Structured) Tj ET Q
-BT 42.52 512.77 Td /F2 9.50 Tf (Outputs, Model Evaluation & Evals Framework.) Tj ET
-BT 42.52 500.87 Td /F1 9.50 Tf (Databases:) Tj /F2 9.50 Tf ( PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, Vector Databases \(Pinecone, Weaviate\), NoSQL.) Tj ET
-q BT 42.52 488.96 Td /F1 9.50 Tf 1.096 Tw (Cloud & Infrastructure:) Tj /F2 9.50 Tf ( AWS \(EC2, S3, Lambda, SQS, SNS, CloudWatch, DynamoDB\), Azure \(Azure OpenAI, Azure AI) Tj ET Q
-q BT 42.52 477.06 Td /F2 9.50 Tf 0.077 Tw (Foundry, Azure Document Intelligence, Azure AI Search, AKS, Azure Monitor\), Docker, Kubernetes, Jenkins, GitHub Actions,) Tj ET Q
-BT 42.52 465.15 Td /F2 9.50 Tf (CI/CD, Git, Agile.) Tj ET
-BT 42.52 453.24 Td /F1 9.50 Tf (Monitoring & Observability:) Tj /F2 9.50 Tf ( LangSmith, Prometheus, Grafana, Datadog, CloudWatch, Distributed Tracing.) Tj ET
+BT 42.52 536.58 Td /F1 9.50 Tf (Databases:) Tj /F2 9.50 Tf ( PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, Vector Databases \(Pinecone, Weaviate\), NoSQL.) Tj ET
+q BT 42.52 524.68 Td /F1 9.50 Tf 0.427 Tw (Cloud and Infrastructure:) Tj /F2 9.50 Tf ( AWS \(EC2, S3, Lambda, SQS, SNS, CloudWatch, DynamoDB\), Azure \(Azure OpenAI, Azure AI) Tj ET Q
+q BT 42.52 512.77 Td /F2 9.50 Tf 0.077 Tw (Foundry, Azure Document Intelligence, Azure AI Search, AKS, Azure Monitor\), Docker, Kubernetes, Jenkins, GitHub Actions,) Tj ET Q
+BT 42.52 500.87 Td /F2 9.50 Tf (CI/CD, Git, Agile.) Tj ET
+q BT 42.52 488.96 Td /F1 9.50 Tf 0.407 Tw (AI and LLM Systems:) Tj /F2 9.50 Tf ( LangGraph, LangChain, LangSmith, OpenAI, Claude API, RAG Pipelines, Multi-Agent Orchestration,) Tj ET Q
+q BT 42.52 477.06 Td /F2 9.50 Tf 0.046 Tw (MCP \(Model Context Protocol\), Prompt Engineering, Vector Databases \(Pinecone, PGVector, Weaviate\), Structured Outputs,) Tj ET Q
+BT 42.52 465.15 Td /F2 9.50 Tf (Model Evaluation and Evals Framework.) Tj ET
+BT 42.52 453.24 Td /F1 9.50 Tf (Monitoring and Observability:) Tj /F2 9.50 Tf ( LangSmith, Prometheus, Grafana, Datadog, CloudWatch, Distributed Tracing.) Tj ET
 BT /F1 11.00 Tf ET
 BT 42.52 435.50 Td (EXPERIENCE) Tj ET
 39.69 430.30 m 572.31 430.30 l S
 BT /F1 9.80 Tf ET
-BT 42.52 414.32 Td (AI Software Engineer | Geico | San Jose, CA) Tj ET
+BT 42.52 414.32 Td (Software Engineer | Geico | San Jose, CA) Tj ET
 BT /F2 9.80 Tf ET
 BT 489.95 414.32 Td (Jul 2024 - Present) Tj ET
-q BT 53.86 399.10 Td /F2 9.50 Tf 1.141 Tw (- Own a production system end to end, with ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf (/) Tj /F1 9.50 Tf (FastAPI) Tj /F2 9.50 Tf ( backend services, ) Tj /F1 9.50 Tf (React) Tj /F2 9.50 Tf ( dashboards, and a ) Tj /F1 9.50 Tf (LangGraph) Tj /F2 9.50 Tf () Tj ET Q
-BT 53.86 386.63 Td /F2 9.50 Tf (multi-agent core on ) Tj /F1 9.50 Tf (Azure OpenAI) Tj /F2 9.50 Tf ( processing 1K+ customer service emails daily at 92% accuracy.) Tj ET
-q BT 53.86 373.02 Td /F2 9.50 Tf 1.505 Tw (- Built the backend services in ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf ( and ) Tj /F1 9.50 Tf (FastAPI) Tj /F2 9.50 Tf (, with ) Tj /F1 9.50 Tf (REST APIs) Tj /F2 9.50 Tf ( orchestrating intent classification, retrieval, and) Tj ET Q
-q BT 53.86 360.55 Td /F2 9.50 Tf 1.527 Tw (response generation across specialized agents, with A2A-style message passing and state handoffs for reliable agent) Tj ET Q
-BT 53.86 348.08 Td /F2 9.50 Tf (composition across microservices in distributed systems.) Tj ET
-BT 53.86 334.47 Td /F2 9.50 Tf (- Designed ) Tj /F1 9.50 Tf (PostgreSQL) Tj /F2 9.50 Tf ( schemas and stored procedures for conversation state management under high concurrency.) Tj ET
-q BT 53.86 320.87 Td /F2 9.50 Tf 0.867 Tw (- Built a production ) Tj /F1 9.50 Tf (RAG) Tj /F2 9.50 Tf ( pipeline with ) Tj /F1 9.50 Tf (LangChain) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (LangGraph) Tj /F2 9.50 Tf (, and ) Tj /F1 9.50 Tf (Pinecone) Tj /F2 9.50 Tf (, grounding customer email responses in) Tj ET Q
-BT 53.86 308.39 Td /F2 9.50 Tf (enterprise knowledge bases and cutting average response time from 4 hours to 12 minutes.) Tj ET
-q BT 53.86 294.79 Td /F2 9.50 Tf 0.049 Tw (- Built ) Tj /F1 9.50 Tf (MCP) Tj /F2 9.50 Tf ( servers exposing enterprise knowledge bases and internal APIs as context-aware tools, so agents can retrieve) Tj ET Q
-BT 53.86 282.32 Td /F2 9.50 Tf (customer data, query campaign history, and execute operations programmatically.) Tj ET
-q BT 53.86 268.71 Td /F2 9.50 Tf 0.355 Tw (- Shipped a comprehensive LLM evaluation framework with ) Tj /F1 9.50 Tf (LangSmith) Tj /F2 9.50 Tf (, running automated regression evals over a 200+) Tj ET Q
-BT 53.86 256.24 Td /F2 9.50 Tf (case golden dataset and catching 15+ production edge cases before customer impact.) Tj ET
-q BT 53.86 242.63 Td /F2 9.50 Tf 1.602 Tw (- Made deliberate model and cost decisions, evaluating GPT-4o against GPT-4o mini and routing classification to the) Tj ET Q
-q BT 53.86 230.16 Td /F2 9.50 Tf 1.207 Tw (smaller model for latency and generation to the larger for quality, batching low-volume workloads, and tracking per-run) Tj ET Q
-BT 53.86 217.69 Td /F2 9.50 Tf (token spend.) Tj ET
-q BT 53.86 204.08 Td /F2 9.50 Tf 1.239 Tw (- Deployed an ) Tj /F1 9.50 Tf (Azure AI) Tj /F2 9.50 Tf ( document pipeline with Azure AI Foundry, Document Intelligence, and Azure OpenAI, running) Tj ET Q
-BT 53.86 191.61 Td /F2 9.50 Tf (classify-extract-remediate workflows with confidence-based human review routing and per-run cost and latency telemetry.) Tj ET
-q BT 53.86 178.00 Td /F2 9.50 Tf 2.015 Tw (- Partnered with customer-service stakeholders to build the ) Tj /F1 9.50 Tf (React) Tj /F2 9.50 Tf ( and Material-UI human-in-the-loop dashboards for) Tj ET Q
-q BT 53.86 165.53 Td /F2 9.50 Tf 0.333 Tw (agent performance monitoring, low-confidence review queues, and real-time approval workflows, cutting triage turnaround) Tj ET Q
-BT 53.86 153.06 Td /F2 9.50 Tf (time by 40%.) Tj ET
-q BT 53.86 139.45 Td /F2 9.50 Tf 2.023 Tw (- Run production with end-to-end observability across ) Tj /F1 9.50 Tf (LangSmith) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (Grafana) Tj /F2 9.50 Tf (, and Azure Monitor for pipeline visibility,) Tj ET Q
-BT 53.86 126.98 Td /F2 9.50 Tf (debugging, and incident response.) Tj ET
-q BT 53.86 113.37 Td /F2 9.50 Tf 2.837 Tw (- Ship through CI/CD with ) Tj /F1 9.50 Tf (GitHub Actions) Tj /F2 9.50 Tf ( and Azure DevOps, with automated testing, containerized builds, and) Tj ET Q
-BT 53.86 100.90 Td /F2 9.50 Tf (production deploys at 85%+ test coverage with PyTest and Jest.) Tj ET
-BT 53.86 87.29 Td /F2 9.50 Tf (- Work AI-native, using Claude Code and Cursor to cut boilerplate by 40% while keeping code quality high.) Tj ET
-BT /F1 9.80 Tf ET
-BT 42.52 69.63 Td (Software Analyst | Deloitte | Hyderabad, India) Tj ET
-BT /F2 9.80 Tf ET
-BT 476.86 69.63 Td (Aug 2021 - Aug 2022) Tj ET
-q BT 53.86 54.41 Td /F2 9.50 Tf 0.570 Tw (- Architected scalable backend infrastructure for enterprise clients supporting 50+ microservices handling millions of daily) Tj ET Q
+55.42 402.24 m 55.42 403.10 54.72 403.80 53.86 403.80 c
+53.00 403.80 52.30 403.10 52.30 402.24 c
+52.30 401.38 53.00 400.68 53.86 400.68 c
+54.72 400.68 55.42 401.38 55.42 402.24 c f
+q BT 62.36 399.10 Td /F2 9.50 Tf 0.559 Tw (Built backend services with ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf (, and ) Tj /F1 9.50 Tf (FastAPI) Tj /F2 9.50 Tf ( that handle 1K+ customer service emails a day, with ) Tj /F1 9.50 Tf (REST) Tj ET Q
+BT 62.36 386.63 Td /F1 9.50 Tf (APIs) Tj /F2 9.50 Tf ( for email intake, status checks, and review queues used by the ) Tj /F1 9.50 Tf (React) Tj /F2 9.50 Tf ( dashboards and internal tools.) Tj ET
+55.42 376.16 m 55.42 377.02 54.72 377.72 53.86 377.72 c
+53.00 377.72 52.30 377.02 52.30 376.16 c
+52.30 375.30 53.00 374.60 53.86 374.60 c
+54.72 374.60 55.42 375.30 55.42 376.16 c f
+q BT 62.36 373.02 Td /F2 9.50 Tf 1.740 Tw (Defined the API design for the backend services, covering URL structure, versioning, error responses, and request) Tj ET Q
+BT 62.36 360.55 Td /F2 9.50 Tf (validation with Pydantic, so endpoints stayed consistent and easy for other teams to use.) Tj ET
+55.42 350.08 m 55.42 350.94 54.72 351.64 53.86 351.64 c
+53.00 351.64 52.30 350.94 52.30 350.08 c
+52.30 349.22 53.00 348.52 53.86 348.52 c
+54.72 348.52 55.42 349.22 55.42 350.08 c f
+BT 62.36 346.95 Td /F2 9.50 Tf (Designed ) Tj /F1 9.50 Tf (PostgreSQL) Tj /F2 9.50 Tf ( schemas and stored procedures for conversation state management under high concurrency.) Tj ET
+55.42 336.47 m 55.42 337.33 54.72 338.03 53.86 338.03 c
+53.00 338.03 52.30 337.33 52.30 336.47 c
+52.30 335.61 53.00 334.91 53.86 334.91 c
+54.72 334.91 55.42 335.61 55.42 336.47 c f
+q BT 62.36 333.34 Td /F2 9.50 Tf 3.449 Tw (Delivered a production system end to end, with ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf (/) Tj /F1 9.50 Tf (FastAPI) Tj /F2 9.50 Tf ( backend services, ) Tj /F1 9.50 Tf (React) Tj /F2 9.50 Tf ( dashboards, and a) Tj ET Q
+BT 62.36 320.87 Td /F1 9.50 Tf (LangGraph) Tj /F2 9.50 Tf ( multi-agent core on ) Tj /F1 9.50 Tf (Azure OpenAI) Tj /F2 9.50 Tf ( processing 1K+ customer service emails daily at 92% accuracy.) Tj ET
+55.42 310.39 m 55.42 311.25 54.72 311.95 53.86 311.95 c
+53.00 311.95 52.30 311.25 52.30 310.39 c
+52.30 309.53 53.00 308.83 53.86 308.83 c
+54.72 308.83 55.42 309.53 55.42 310.39 c f
+q BT 62.36 307.26 Td /F2 9.50 Tf 0.597 Tw (Added ) Tj /F1 9.50 Tf (Kafka) Tj /F2 9.50 Tf ( with worker nodes to process customer emails in the background, so spikes in email volume do not slow) Tj ET Q
+BT 62.36 294.79 Td /F2 9.50 Tf (down the main services.) Tj ET
+55.42 284.31 m 55.42 285.18 54.72 285.87 53.86 285.87 c
+53.00 285.87 52.30 285.18 52.30 284.31 c
+52.30 283.45 53.00 282.76 53.86 282.76 c
+54.72 282.76 55.42 283.45 55.42 284.31 c f
+q BT 62.36 281.18 Td /F2 9.50 Tf 2.132 Tw (Worked with customer-service stakeholders to build the ) Tj /F1 9.50 Tf (React) Tj /F2 9.50 Tf ( and ) Tj /F1 9.50 Tf (Material-UI) Tj /F2 9.50 Tf ( dashboards for agent performance) Tj ET Q
+BT 62.36 268.71 Td /F2 9.50 Tf (monitoring, low-confidence review queues, and real-time approval workflows, cutting triage turnaround time by 40%.) Tj ET
+55.42 258.24 m 55.42 259.10 54.72 259.80 53.86 259.80 c
+53.00 259.80 52.30 259.10 52.30 258.24 c
+52.30 257.38 53.00 256.68 53.86 256.68 c
+54.72 256.68 55.42 257.38 55.42 258.24 c f
+q BT 62.36 255.10 Td /F2 9.50 Tf 0.591 Tw (Set up CI/CD with ) Tj /F1 9.50 Tf (Azure Pipelines) Tj /F2 9.50 Tf (, with automated testing, containerized builds, and production deploys at 85%+ test) Tj ET Q
+BT 62.36 242.63 Td /F2 9.50 Tf (coverage with PyTest and Jest.) Tj ET
+55.42 232.16 m 55.42 233.02 54.72 233.72 53.86 233.72 c
+53.00 233.72 52.30 233.02 52.30 232.16 c
+52.30 231.30 53.00 230.60 53.86 230.60 c
+54.72 230.60 55.42 231.30 55.42 232.16 c f
+q BT 62.36 229.02 Td /F2 9.50 Tf 0.418 Tw (Implemented end-to-end observability across ) Tj /F1 9.50 Tf (LangSmith) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (Grafana) Tj /F2 9.50 Tf (, and Azure Monitor for pipeline visibility, debugging,) Tj ET Q
+BT 62.36 216.55 Td /F2 9.50 Tf (and incident response.) Tj ET
+55.42 206.08 m 55.42 206.94 54.72 207.64 53.86 207.64 c
+53.00 207.64 52.30 206.94 52.30 206.08 c
+52.30 205.22 53.00 204.52 53.86 204.52 c
+54.72 204.52 55.42 205.22 55.42 206.08 c f
+q BT 62.36 202.95 Td /F2 9.50 Tf 3.323 Tw (Developed a production ) Tj /F1 9.50 Tf (RAG) Tj /F2 9.50 Tf ( pipeline with ) Tj /F1 9.50 Tf (LangChain) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (LangGraph) Tj /F2 9.50 Tf (, and ) Tj /F1 9.50 Tf (Pinecone) Tj /F2 9.50 Tf (, grounding customer email) Tj ET Q
+BT 62.36 190.47 Td /F2 9.50 Tf (responses in enterprise knowledge bases and cutting average response time from 4 hours to 12 minutes.) Tj ET
+55.42 180.00 m 55.42 180.86 54.72 181.56 53.86 181.56 c
+53.00 181.56 52.30 180.86 52.30 180.00 c
+52.30 179.14 53.00 178.44 53.86 178.44 c
+54.72 178.44 55.42 179.14 55.42 180.00 c f
+q BT 62.36 176.87 Td /F2 9.50 Tf 0.044 Tw (Used and customized ) Tj /F1 9.50 Tf (MCP) Tj /F2 9.50 Tf ( servers to connect agents with enterprise knowledge bases and internal APIs, so agents can) Tj ET Q
+BT 62.36 164.39 Td /F2 9.50 Tf (look up customer data, check campaign history, and run operations.) Tj ET
+55.42 153.92 m 55.42 154.78 54.72 155.48 53.86 155.48 c
+53.00 155.48 52.30 154.78 52.30 153.92 c
+52.30 153.06 53.00 152.36 53.86 152.36 c
+54.72 152.36 55.42 153.06 55.42 153.92 c f
+q BT 62.36 150.79 Td /F2 9.50 Tf 0.495 Tw (Set up a full LLM evaluation framework with ) Tj /F1 9.50 Tf (LangSmith) Tj /F2 9.50 Tf (, running automated regression evals over a 200+ case golden) Tj ET Q
+BT 62.36 138.32 Td /F2 9.50 Tf (dataset and catching 15+ production edge cases before customer impact.) Tj ET
+55.42 127.84 m 55.42 128.70 54.72 129.40 53.86 129.40 c
+53.00 129.40 52.30 128.70 52.30 127.84 c
+52.30 126.98 53.00 126.28 53.86 126.28 c
+54.72 126.28 55.42 126.98 55.42 127.84 c f
+q BT 62.36 124.71 Td /F2 9.50 Tf 1.846 Tw (Evaluated models and routed classification to a smaller, faster model and generation to a larger model for quality,) Tj ET Q
+BT 62.36 112.24 Td /F2 9.50 Tf (batching low-volume workloads, and tracking per-run token spend.) Tj ET
+55.42 101.76 m 55.42 102.62 54.72 103.32 53.86 103.32 c
+53.00 103.32 52.30 102.62 52.30 101.76 c
+52.30 100.90 53.00 100.20 53.86 100.20 c
+54.72 100.20 55.42 100.90 55.42 101.76 c f
+q BT 62.36 98.63 Td /F2 9.50 Tf 0.368 Tw (Refactored the backend codebase to remove duplication and split large services into smaller reusable modules, making) Tj ET Q
+BT 62.36 86.16 Td /F2 9.50 Tf (the code easier to test, maintain, and extend.) Tj ET
+55.42 75.69 m 55.42 76.55 54.72 77.24 53.86 77.24 c
+53.00 77.24 52.30 76.55 52.30 75.69 c
+52.30 74.82 53.00 74.13 53.86 74.13 c
+54.72 74.13 55.42 74.82 55.42 75.69 c f
+q BT 62.36 72.55 Td /F2 9.50 Tf 2.343 Tw (Cut boilerplate by 40% by working AI-native with Claude Code and Cursor for code generation, test writing, and) Tj ET Q
+BT 62.36 60.08 Td /F2 9.50 Tf (refactoring, with every change reviewed and tested before shipping.) Tj ET
 
 endstream
 endobj
 5 0 obj
 <<
+/Annots [<</A <</S /URI /URI (https://github.com/pssgowtham/codereviewer)>>
+/Border [0 0 0]
+/F 4
+/Rect [39.69 291.97 219.76 304.44]
+/Subtype /Link
+/Type /Annot>>
+<</A <</S /URI /URI (https://github.com/pssgowtham/multi-agent-research)>>
+/Border [0 0 0]
+/F 4
+/Rect [39.69 209.76 248.76 222.24]
+/Subtype /Link
+/Type /Annot>>]
 /Contents 6 0 R
 /Parent 1 0 R
 /Resources 10 0 R
@@ -111,71 +200,147 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 6668
+/Length 10011
 >>
 stream
 2 J
 0.57 w
 0.2353 0.2353 0.2353 RG
-q BT 53.86 748.90 Td /F2 9.50 Tf 1.230 Tw (transactions, designing ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf ( orchestration layer with request batching, retry logic, and circuit breakers for resilience) Tj ET Q
-BT 53.86 736.43 Td /F2 9.50 Tf (under high load.) Tj ET
-q BT 53.86 722.82 Td /F2 9.50 Tf 0.517 Tw (- Collaborated on Deloitte's SaaS AI Framework, leveraging ) Tj /F1 9.50 Tf (Datadog) Tj /F2 9.50 Tf ( to monitor 50+ services, evaluate AI ethics, protect) Tj ET Q
-q BT 53.86 710.35 Td /F2 9.50 Tf 1.147 Tw (customer privacy, and reduce AI bias by 30%, while communicating insights to client stakeholders and cross-functional) Tj ET Q
-BT 53.86 697.87 Td /F2 9.50 Tf (teams.) Tj ET
-q BT 53.86 684.27 Td /F2 9.50 Tf 1.604 Tw (- Shipped a ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf ( API gateway and ) Tj /F1 9.50 Tf (Python FastAPI) Tj /F2 9.50 Tf ( services with OAuth2.0/JWT authentication, rate limiting, and) Tj ET Q
-BT 53.86 671.80 Td /F2 9.50 Tf (structured logging for secure communication across distributed services, reducing API latency by 25%.) Tj ET
-q BT 53.86 658.19 Td /F2 9.50 Tf 2.171 Tw (- Developed ) Tj /F1 9.50 Tf (Vue.js) Tj /F2 9.50 Tf ( and ) Tj /F1 9.50 Tf (ReactJS) Tj /F2 9.50 Tf ( real-time monitoring dashboards with Redux state management for service health) Tj ET Q
-BT 53.86 645.72 Td /F2 9.50 Tf (visualization and production troubleshooting, reducing incident response time by 30-35%.) Tj ET
-q BT 53.86 632.11 Td /F2 9.50 Tf 2.325 Tw (- Wrote the Swagger/OpenAPI 3.0 contracts for scalable ) Tj /F1 9.50 Tf (REST APIs) Tj /F2 9.50 Tf ( that 50+ microservices built against, enabling) Tj ET Q
-BT 53.86 619.64 Td /F2 9.50 Tf (contract-driven development across distributed teams.) Tj ET
-q BT 53.86 606.03 Td /F2 9.50 Tf 0.952 Tw (- Optimized database performance across ) Tj /F1 9.50 Tf (PostgreSQL) Tj /F2 9.50 Tf (, ) Tj /F1 9.50 Tf (MongoDB) Tj /F2 9.50 Tf (, and ) Tj /F1 9.50 Tf (Redis) Tj /F2 9.50 Tf (, implementing caching strategies, query) Tj ET Q
-BT 53.86 593.56 Td /F2 9.50 Tf (optimization, and schema design, reducing database load by 30% and improving throughput by 40%.) Tj ET
-q BT 53.86 579.95 Td /F2 9.50 Tf 1.644 Tw (- Analyzed client Model Risk Management projects in healthcare, evaluating model performance, mitigating risks, and) Tj ET Q
-BT 53.86 567.48 Td /F2 9.50 Tf (upgrading algorithm efficiency by 25%.) Tj ET
 BT /F1 9.80 Tf ET
-BT 42.52 549.82 Td (Software Engineer | Virtutech | Hyderabad, India) Tj ET
+BT 42.52 747.67 Td (Software Analyst | Deloitte | Hyderabad, India) Tj ET
 BT /F2 9.80 Tf ET
-BT 480.69 549.82 Td (May 2020 - Jul 2021) Tj ET
-q BT 53.86 534.60 Td /F2 9.50 Tf 2.521 Tw (- Built the core backend services in ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf ( and ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf ( \(FastAPI\): customer-facing RESTful APIs and third-party) Tj ET Q
-BT 53.86 522.13 Td /F2 9.50 Tf (integrations for real-time data exchange, improving data retrieval efficiency by 50%.) Tj ET
-q BT 53.86 508.52 Td /F2 9.50 Tf 1.709 Tw (- Automated CI/CD with AWS CodePipeline, CodeBuild, and Docker, cutting deployment time by 40% and sustaining) Tj ET Q
-BT 53.86 496.05 Td /F2 9.50 Tf (99.9%.) Tj ET
-q BT 53.86 482.44 Td /F2 9.50 Tf 1.832 Tw (- Shipped reusable UI components and cut frontend render times with lazy loading, code splitting, and memoization,) Tj ET Q
-BT 53.86 469.97 Td /F2 9.50 Tf (reducing page load times by 30%.) Tj ET
-q BT 53.86 456.36 Td /F2 9.50 Tf 0.447 Tw (- Hardened authentication with JWT and OAuth 2.0 across login and session flows, tightening application security without) Tj ET Q
-BT 53.86 443.89 Td /F2 9.50 Tf (breaking the user experience.) Tj ET
-q BT 53.86 430.28 Td /F2 9.50 Tf 1.606 Tw (- Built asynchronous event-driven workflows using message queues and background job processing, enabling reliable) Tj ET Q
-BT 53.86 417.81 Td /F2 9.50 Tf (handling of high-volume transactions and notifications.) Tj ET
-q BT 53.86 404.21 Td /F2 9.50 Tf 0.323 Tw (- Optimized SQL and NoSQL database queries, indexing strategies, and caching mechanisms, significantly improving API) Tj ET Q
-BT 53.86 391.73 Td /F2 9.50 Tf (response times and scalability under peak traffic.) Tj ET
-q BT 53.86 378.13 Td /F2 9.50 Tf 2.218 Tw (- Containerized applications with Docker and deployed services on AWS infrastructure, ensuring consistency across) Tj ET Q
-BT 53.86 365.65 Td /F2 9.50 Tf (development, staging, and production environments.) Tj ET
-BT /F1 11.00 Tf ET
-BT 42.52 346.50 Td (PROJECTS) Tj ET
-39.69 341.29 m 572.31 341.29 l S
+BT 476.86 747.67 Td (Aug 2021 - Aug 2022) Tj ET
+55.42 735.59 m 55.42 736.45 54.72 737.15 53.86 737.15 c
+53.00 737.15 52.30 736.45 52.30 735.59 c
+52.30 734.73 53.00 734.03 53.86 734.03 c
+54.72 734.03 55.42 734.73 55.42 735.59 c f
+q BT 62.36 732.46 Td /F2 9.50 Tf 0.975 Tw (Designed scalable backend infrastructure for enterprise clients supporting 50+ microservices handling millions of daily) Tj ET Q
+q BT 62.36 719.98 Td /F2 9.50 Tf 1.249 Tw (transactions, with a ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf ( orchestration layer using request batching, retry logic, and circuit breakers for resilience) Tj ET Q
+BT 62.36 707.51 Td /F2 9.50 Tf (under high load.) Tj ET
+55.42 697.04 m 55.42 697.90 54.72 698.60 53.86 698.60 c
+53.00 698.60 52.30 697.90 52.30 697.04 c
+52.30 696.18 53.00 695.48 53.86 695.48 c
+54.72 695.48 55.42 696.18 55.42 697.04 c f
+q BT 62.36 693.91 Td /F2 9.50 Tf 1.602 Tw (Created a ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf ( API gateway and ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf ( ) Tj /F1 9.50 Tf (FastAPI) Tj /F2 9.50 Tf ( services with OAuth2.0/JWT authentication, rate limiting, and) Tj ET Q
+BT 62.36 681.43 Td /F2 9.50 Tf (structured logging for secure communication across distributed services, reducing API latency by 25%.) Tj ET
+55.42 670.96 m 55.42 671.82 54.72 672.52 53.86 672.52 c
+53.00 672.52 52.30 671.82 52.30 670.96 c
+52.30 670.10 53.00 669.40 53.86 669.40 c
+54.72 669.40 55.42 670.10 55.42 670.96 c f
+q BT 62.36 667.83 Td /F2 9.50 Tf 1.175 Tw (Optimized database performance across ) Tj /F1 9.50 Tf (PostgreSQL) Tj /F2 9.50 Tf (, MongoDB, and Redis, implementing caching strategies, query) Tj ET Q
+BT 62.36 655.35 Td /F2 9.50 Tf (optimization, and schema design, reducing database load by 30% and improving throughput by 40%.) Tj ET
+55.42 644.88 m 55.42 645.74 54.72 646.44 53.86 646.44 c
+53.00 646.44 52.30 645.74 52.30 644.88 c
+52.30 644.02 53.00 643.32 53.86 643.32 c
+54.72 643.32 55.42 644.02 55.42 644.88 c f
+q BT 62.36 641.75 Td /F2 9.50 Tf 2.298 Tw (Wrote the Swagger/OpenAPI 3.0 contracts for scalable ) Tj /F1 9.50 Tf (REST APIs) Tj /F2 9.50 Tf ( that 50+ microservices built against, enabling) Tj ET Q
+BT 62.36 629.28 Td /F2 9.50 Tf (contract-driven development across distributed teams.) Tj ET
+55.42 618.80 m 55.42 619.66 54.72 620.36 53.86 620.36 c
+53.00 620.36 52.30 619.66 52.30 618.80 c
+52.30 617.94 53.00 617.24 53.86 617.24 c
+54.72 617.24 55.42 617.94 55.42 618.80 c f
+q BT 62.36 615.67 Td /F2 9.50 Tf 0.244 Tw (Built Vue.js and ReactJS real-time monitoring dashboards with Redux state management for service health visualization) Tj ET Q
+BT 62.36 603.20 Td /F2 9.50 Tf (and production troubleshooting, reducing incident response time by 30-35%.) Tj ET
+55.42 592.72 m 55.42 593.59 54.72 594.28 53.86 594.28 c
+53.00 594.28 52.30 593.59 52.30 592.72 c
+52.30 591.86 53.00 591.17 53.86 591.17 c
+54.72 591.17 55.42 591.86 55.42 592.72 c f
+q BT 62.36 589.59 Td /F2 9.50 Tf 0.512 Tw (Worked on Deloitte's SaaS AI Framework, using Datadog to monitor 50+ services, evaluate AI ethics, protect customer) Tj ET Q
+BT 62.36 577.12 Td /F2 9.50 Tf (privacy, and reduce AI bias by 30%, while communicating insights to client stakeholders and cross-functional teams.) Tj ET
+55.42 566.65 m 55.42 567.51 54.72 568.20 53.86 568.20 c
+53.00 568.20 52.30 567.51 52.30 566.65 c
+52.30 565.78 53.00 565.09 53.86 565.09 c
+54.72 565.09 55.42 565.78 55.42 566.65 c f
+q BT 62.36 563.51 Td /F2 9.50 Tf 1.563 Tw (Analyzed client Model Risk Management projects in healthcare, evaluating model performance, mitigating risks, and) Tj ET Q
+BT 62.36 551.04 Td /F2 9.50 Tf (upgrading algorithm efficiency by 25%.) Tj ET
 BT /F1 9.80 Tf ET
-BT 42.52 325.31 Td (Multi-Agent Research System: AI-Powered Deep Research Platform) Tj ET
-BT /F2 9.00 Tf ET
-BT 42.52 311.95 Td (github.com/pssgowtham/multi-agent-research) Tj ET
-q BT 53.86 299.41 Td /F2 9.20 Tf 0.557 Tw (- Built a multi-agent research platform using ) Tj /F1 9.20 Tf (LangGraph) Tj /F2 9.20 Tf (, orchestrating 5 specialized agents with a conditional feedback loop) Tj ET Q
-BT 53.86 286.94 Td /F2 9.20 Tf (for iterative refinement. Integrated semantic search and ) Tj /F1 9.20 Tf (Pinecone) Tj /F2 9.20 Tf ( vector memory with similarity-based caching.) Tj ET
-q BT 53.86 273.33 Td /F2 9.20 Tf 0.118 Tw (- Implemented a ) Tj /F1 9.20 Tf (FastAPI) Tj /F2 9.20 Tf ( backend with SSE streaming for real-time agent progress, multi-layered safety guards \() Tj /F1 9.20 Tf (LlamaGuard) Tj ET Q
-BT 53.86 260.86 Td /F2 9.20 Tf (prompt injection detection, PII filtering\). Monitored with ) Tj /F1 9.20 Tf (LangSmith) Tj /F2 9.20 Tf ( for end-to-end LLM observability.) Tj ET
-BT /F1 9.80 Tf ET
-BT 42.52 243.11 Td (CodeReviewer AI: Autonomous LLM-Powered Pull Request Review Agent) Tj ET
-BT /F2 9.00 Tf ET
-BT 42.52 229.74 Td (github.com/pssgowtham/codereviewer) Tj ET
-q BT 53.86 217.21 Td /F2 9.20 Tf 1.370 Tw (- Built an autonomous code review agent with tool-calling and ) Tj /F1 9.20 Tf (MCP) Tj /F2 9.20 Tf ( integration, analyzing 500+ PRs/month and delivering) Tj ET Q
-BT 53.86 204.74 Td /F2 9.20 Tf (context-aware feedback on security, performance, and maintainability, reducing review time by 60%.) Tj ET
-q BT 53.86 191.13 Td /F2 9.20 Tf 1.199 Tw (- Implemented Tree-sitter AST parsing with RAG \() Tj /F1 9.20 Tf (Pinecone) Tj /F2 9.20 Tf (\) for repo-aware insights and deployed via ) Tj /F1 9.20 Tf (AWS Lambda) Tj /F2 9.20 Tf ( with) Tj ET Q
-BT 53.86 178.66 Td /F1 9.20 Tf (DynamoDB) Tj /F2 9.20 Tf ( and GitHub webhooks, achieving 88% precision on issue detection.) Tj ET
-BT /F1 11.00 Tf ET
-BT 42.52 159.41 Td (EDUCATION) Tj ET
-39.69 154.20 m 572.31 154.20 l S
-BT /F1 9.80 Tf ET
-BT 42.52 138.23 Td (Master of Science in Software Engineering | San Jose State University) Tj ET
+BT 42.52 533.37 Td (Software Engineer | Virtutech | Hyderabad, India) Tj ET
 BT /F2 9.80 Tf ET
-BT 475.78 138.23 Td (Aug 2022 - May 2024) Tj ET
+BT 480.69 533.37 Td (May 2020 - Jul 2021) Tj ET
+55.42 521.29 m 55.42 522.15 54.72 522.85 53.86 522.85 c
+53.00 522.85 52.30 522.15 52.30 521.29 c
+52.30 520.43 53.00 519.73 53.86 519.73 c
+54.72 519.73 55.42 520.43 55.42 521.29 c f
+q BT 62.36 518.16 Td /F2 9.50 Tf 2.509 Tw (Developed the core backend services in ) Tj /F1 9.50 Tf (Node.js) Tj /F2 9.50 Tf ( and ) Tj /F1 9.50 Tf (Python) Tj /F2 9.50 Tf ( \() Tj /F1 9.50 Tf (FastAPI) Tj /F2 9.50 Tf (\) with customer-facing RESTful APIs and) Tj ET Q
+BT 62.36 505.69 Td /F2 9.50 Tf (third-party integrations for real-time data exchange, improving data retrieval efficiency by 50%.) Tj ET
+55.42 495.21 m 55.42 496.07 54.72 496.77 53.86 496.77 c
+53.00 496.77 52.30 496.07 52.30 495.21 c
+52.30 494.35 53.00 493.65 53.86 493.65 c
+54.72 493.65 55.42 494.35 55.42 495.21 c f
+q BT 62.36 492.08 Td /F2 9.50 Tf 1.364 Tw (Implemented asynchronous event-driven workflows using message queues and background job processing, enabling) Tj ET Q
+BT 62.36 479.61 Td /F2 9.50 Tf (reliable handling of high-volume transactions and notifications.) Tj ET
+55.42 469.13 m 55.42 469.99 54.72 470.69 53.86 470.69 c
+53.00 470.69 52.30 469.99 52.30 469.13 c
+52.30 468.27 53.00 467.57 53.86 467.57 c
+54.72 467.57 55.42 468.27 55.42 469.13 c f
+q BT 62.36 466.00 Td /F2 9.50 Tf 2.178 Tw (Containerized applications with Docker and deployed services on AWS infrastructure, ensuring consistency across) Tj ET Q
+BT 62.36 453.53 Td /F2 9.50 Tf (development, staging, and production environments.) Tj ET
+55.42 443.06 m 55.42 443.92 54.72 444.61 53.86 444.61 c
+53.00 444.61 52.30 443.92 52.30 443.06 c
+52.30 442.19 53.00 441.50 53.86 441.50 c
+54.72 441.50 55.42 442.19 55.42 443.06 c f
+q BT 62.36 439.92 Td /F2 9.50 Tf 1.639 Tw (Automated CI/CD with AWS CodePipeline, CodeBuild, and Docker, cutting deployment time by 40% and sustaining) Tj ET Q
+BT 62.36 427.45 Td /F2 9.50 Tf (99.9% uptime.) Tj ET
+55.42 416.98 m 55.42 417.84 54.72 418.54 53.86 418.54 c
+53.00 418.54 52.30 417.84 52.30 416.98 c
+52.30 416.12 53.00 415.42 53.86 415.42 c
+54.72 415.42 55.42 416.12 55.42 416.98 c f
+q BT 62.36 413.84 Td /F2 9.50 Tf 1.697 Tw (Secured login and session flows with JWT and OAuth 2.0, tightening application security without breaking the user) Tj ET Q
+BT 62.36 401.37 Td /F2 9.50 Tf (experience.) Tj ET
+55.42 390.90 m 55.42 391.76 54.72 392.46 53.86 392.46 c
+53.00 392.46 52.30 391.76 52.30 390.90 c
+52.30 390.04 53.00 389.34 53.86 389.34 c
+54.72 389.34 55.42 390.04 55.42 390.90 c f
+q BT 62.36 387.76 Td /F2 9.50 Tf 0.140 Tw (Optimized SQL and NoSQL database queries, indexing strategies, and caching mechanisms, significantly improving API) Tj ET Q
+BT 62.36 375.29 Td /F2 9.50 Tf (response times and scalability under peak traffic.) Tj ET
+55.42 364.82 m 55.42 365.68 54.72 366.38 53.86 366.38 c
+53.00 366.38 52.30 365.68 52.30 364.82 c
+52.30 363.96 53.00 363.26 53.86 363.26 c
+54.72 363.26 55.42 363.96 55.42 364.82 c f
+q BT 62.36 361.69 Td /F2 9.50 Tf 1.775 Tw (Shipped reusable UI components and cut frontend render times with lazy loading, code splitting, and memoization,) Tj ET Q
+BT 62.36 349.21 Td /F2 9.50 Tf (reducing page load times by 30%.) Tj ET
+BT /F1 11.00 Tf ET
+BT 42.52 330.05 Td (PROJECTS) Tj ET
+39.69 324.85 m 572.31 324.85 l S
+BT /F1 9.80 Tf ET
+BT 42.52 308.87 Td (CodeReviewer AI: Autonomous LLM-Powered Pull Request Review Agent) Tj ET
+BT /F2 9.00 Tf ET
+BT 42.52 295.50 Td (https://github.com/pssgowtham/codereviewer) Tj ET
+55.42 286.02 m 55.42 286.88 54.72 287.57 53.86 287.57 c
+53.00 287.57 52.30 286.88 52.30 286.02 c
+52.30 285.15 53.00 284.46 53.86 284.46 c
+54.72 284.46 55.42 285.15 55.42 286.02 c f
+q BT 62.36 282.97 Td /F2 9.20 Tf 1.269 Tw (Built an autonomous code review agent with tool-calling and ) Tj /F1 9.20 Tf (MCP) Tj /F2 9.20 Tf ( integration, analyzing 500+ PRs/month and delivering) Tj ET Q
+BT 62.36 270.50 Td /F2 9.20 Tf (context-aware feedback on security, performance, and maintainability, reducing review time by 60%.) Tj ET
+55.42 259.94 m 55.42 260.80 54.72 261.50 53.86 261.50 c
+53.00 261.50 52.30 260.80 52.30 259.94 c
+52.30 259.08 53.00 258.38 53.86 258.38 c
+54.72 258.38 55.42 259.08 55.42 259.94 c f
+q BT 62.36 256.89 Td /F2 9.20 Tf 2.005 Tw (Integrated Tree-sitter AST parsing with ) Tj /F1 9.20 Tf (RAG) Tj /F2 9.20 Tf ( \() Tj /F1 9.20 Tf (Pinecone) Tj /F2 9.20 Tf (\) for repo-aware insights and deployed via AWS Lambda with) Tj ET Q
+BT 62.36 244.42 Td /F2 9.20 Tf (DynamoDB and GitHub webhooks, achieving 88% precision on issue detection.) Tj ET
+BT /F1 9.80 Tf ET
+BT 42.52 226.67 Td (Multi-Agent Research System: AI-Powered Deep Research Platform) Tj ET
+BT /F2 9.00 Tf ET
+BT 42.52 213.30 Td (https://github.com/pssgowtham/multi-agent-research) Tj ET
+55.42 203.81 m 55.42 204.67 54.72 205.37 53.86 205.37 c
+53.00 205.37 52.30 204.67 52.30 203.81 c
+52.30 202.95 53.00 202.25 53.86 202.25 c
+54.72 202.25 55.42 202.95 55.42 203.81 c f
+q BT 62.36 200.77 Td /F2 9.20 Tf 0.983 Tw (Created a multi-agent research platform using ) Tj /F1 9.20 Tf (LangGraph) Tj /F2 9.20 Tf (, with 5 specialized agents and a conditional feedback loop for) Tj ET Q
+BT 62.36 188.30 Td /F2 9.20 Tf (iterative refinement. Integrated semantic search and ) Tj /F1 9.20 Tf (Pinecone) Tj /F2 9.20 Tf ( vector memory with similarity-based caching.) Tj ET
+55.42 177.73 m 55.42 178.59 54.72 179.29 53.86 179.29 c
+53.00 179.29 52.30 178.59 52.30 177.73 c
+52.30 176.87 53.00 176.17 53.86 176.17 c
+54.72 176.17 55.42 176.87 55.42 177.73 c f
+q BT 62.36 174.69 Td /F2 9.20 Tf 0.879 Tw (Added a ) Tj /F1 9.20 Tf (FastAPI) Tj /F2 9.20 Tf ( backend with SSE streaming for real-time agent progress and multi-layered safety guards \(LlamaGuard) Tj ET Q
+BT 62.36 162.22 Td /F2 9.20 Tf (prompt injection detection, PII filtering\), monitored with ) Tj /F1 9.20 Tf (LangSmith) Tj /F2 9.20 Tf ( for end-to-end LLM observability.) Tj ET
+BT /F1 11.00 Tf ET
+BT 42.52 142.97 Td (EDUCATION) Tj ET
+39.69 137.76 m 572.31 137.76 l S
+BT /F1 9.80 Tf ET
+BT 42.52 121.78 Td (Master of Science in Software Engineering | San Jose State University) Tj ET
+BT /F2 9.80 Tf ET
+BT 475.78 121.78 Td (Aug 2022 - May 2024) Tj ET
 
 endstream
 endobj
@@ -211,7 +376,7 @@ endobj
 endobj
 11 0 obj
 <<
-/CreationDate (D:20261006191432Z)
+/CreationDate (D:20261021225009Z)
 >>
 endobj
 xref
@@ -220,21 +385,21 @@ xref
 0000000015 00000 n 
 0000000108 00000 n 
 0000000211 00000 n 
-0000000291 00000 n 
-0000008627 00000 n 
-0000008708 00000 n 
-0000015428 00000 n 
-0000015530 00000 n 
-0000015627 00000 n 
-0000015724 00000 n 
-0000015822 00000 n 
+0000000892 00000 n 
+0000011634 00000 n 
+0000012039 00000 n 
+0000022103 00000 n 
+0000022205 00000 n 
+0000022302 00000 n 
+0000022399 00000 n 
+0000022497 00000 n 
 trailer
 <<
 /Size 12
 /Root 2 0 R
 /Info 11 0 R
-/ID [<484871ECEDAE6FBE489943CA18225D3C><484871ECEDAE6FBE489943CA18225D3C>]
+/ID [<D6F6E8FD3E910CD08D902AE03A4A576A><D6F6E8FD3E910CD08D902AE03A4A576A>]
 >>
 startxref
-15878
+22553
 %%EOF
