@@ -31,6 +31,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Pinecone" },
       { name: "LangSmith" },
       { name: "MCP" },
+      { name: "Kafka" },
     ],
   },
   {
@@ -70,7 +71,6 @@ export const skillCategories: SkillCategory[] = [
       { name: "Vue.js" },
       { name: "Django" },
       { name: "GraphQL" },
-      { name: "Kafka" },
       { name: "Cassandra" },
       { name: "Snowflake" },
       { name: "GCP" },
