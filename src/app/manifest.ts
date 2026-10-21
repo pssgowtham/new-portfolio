@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Santosh Sai Gowtham Pasala | AI Software Engineer",
+    name: "Santosh Sai Gowtham Pasala | Software Engineer",
     short_name: "Santosh Pasala",
     description:
-      "AI Software Engineer with 4+ years of experience building scalable web applications and AI-powered systems.",
+      "Software Engineer with 4+ years building production systems end to end. JavaScript and Node.js backends, React frontends, and Python AI systems.",
     start_url: "/",
     display: "standalone",
     background_color: "#0a0a0f",
