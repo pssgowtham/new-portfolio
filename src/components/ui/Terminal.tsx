@@ -5,8 +5,8 @@ import { motion, useReducedMotion } from "framer-motion";
 
 const lines = [
   { prompt: "$ whoami", output: "Santosh Sai Gowtham Pasala" },
-  { prompt: "$ cat role.txt", output: "AI Software Engineer" },
-  { prompt: "$ ls skills/", output: "Python  React  LangChain  AWS  Docker  Next.js" },
+  { prompt: "$ cat role.txt", output: "Software Engineer" },
+  { prompt: "$ ls skills/", output: "JavaScript  Node.js  React  Python  AWS  Docker" },
   { prompt: "$ cat experience.txt", output: "4+ years | Geico, Deloitte, Virtutech" },
   { prompt: "$ echo $LOCATION", output: "San Jose, CA" },
 ];
